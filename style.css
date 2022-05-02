@@ -51,13 +51,15 @@ body {
     padding-bottom: 350px;
     height: 200px;
     width: calc(100% / 3);
-    margin-right: 20px;   
+    margin-right: 20px; 
+    position: relative;
+
 }
 
 .product{
     width: auto;
     height: 350px;
-    padding-bottom: 50px;
+    padding-bottom: 40px; 
     
 }
 
@@ -71,4 +73,25 @@ body {
 
 .card:hover .twistimg{
     display: inline-block;
+}
+
+.discount{
+    position: absolute;
+    bottom: 15%;
+    left: 0;
+    background-color: red;
+    color: white;
+   
+}
+.green{
+    background-color: green;
+    color: white;
+    position: absolute;
+    bottom: 15%;
+    left: 45px;
+}
+
+lastgreen{
+    background-color: green;
+    left: 0;
 }
