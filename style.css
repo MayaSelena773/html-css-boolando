@@ -36,3 +36,7 @@
  .twistimg{
      display: none;
  }
+
+ .card:hover .twistimg{
+     display: inline-block;
+ }
