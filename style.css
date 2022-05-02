@@ -1,0 +1,38 @@
+/*common*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*header*/
+.header-top{
+    display: flex;
+    justify-content: space-around;
+    background-color: orangered;
+    border: 1px solid;
+    padding: 20px;
+}
+
+/*main*/
+.products-list{
+    display: flex;
+    
+}
+.card{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: calc(100% / 3);
+}
+.product{
+    /*test*/
+    width: 100px;
+    height: 150px;
+    border: 1px solid;
+ }
+
+ .twistimg{
+     display: none;
+ }
