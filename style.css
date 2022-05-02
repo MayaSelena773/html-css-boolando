@@ -13,6 +13,7 @@
     background-color: orangered;
     border: 1px solid;
     padding: 20px;
+    color: white;
 }
 
 .logoboolean{
@@ -23,14 +24,19 @@
 /*main*/
 .products-list{
     display: flex;
+
     
 }
 
 .card{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     height: 100px;
     width: calc(100% / 3);
+    
+    
 }
 
 .product{
@@ -38,6 +44,7 @@
     width: auto;
     height: 300px;
     border: 1px solid;
+    
  }
 
 .twistimg{
