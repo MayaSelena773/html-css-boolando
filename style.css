@@ -15,28 +15,39 @@
     padding: 20px;
 }
 
+.logoboolean{
+    width: auto;
+    height: 30px;
+}
+
 /*main*/
 .products-list{
     display: flex;
     
 }
+
 .card{
     display: flex;
     justify-content: center;
     height: 100px;
     width: calc(100% / 3);
 }
+
 .product{
     /*test*/
-    width: 100px;
-    height: 150px;
+    width: auto;
+    height: 300px;
     border: 1px solid;
  }
 
- .twistimg{
+.twistimg{
      display: none;
  }
 
- .card:hover .twistimg{
-     display: inline-block;
- }
+.card:hover .product{
+    display: none;
+}
+
+.card:hover .twistimg{
+    display: inline-block;
+}
