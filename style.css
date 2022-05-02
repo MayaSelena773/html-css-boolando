@@ -8,7 +8,11 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
     font-weight:800 ;
+
 }
 
 /*header*/
@@ -53,7 +57,7 @@ body {
     width: calc(100% / 3);
     margin-right: 20px; 
     position: relative;
-
+    font-weight:800 ;
 }
 
 .product{
@@ -81,6 +85,7 @@ body {
     left: 0;
     background-color: red;
     color: white;
+    
    
 }
 .green{
@@ -91,7 +96,13 @@ body {
     left: 45px;
 }
 
-lastgreen{
+.lastgreen{
     background-color: green;
+    left: 0;
+}
+
+.price{
+    position: absolute;
+    bottom: 0;
     left: 0;
 }
